@@ -153,7 +153,7 @@ h3 {
 
 .nav {
   display: flex;
-  gap: 32px;
+  gap: 24px;
   font-weight: 700;
 }
 
@@ -161,6 +161,7 @@ h3 {
   padding: 8px 0;
   border-bottom: 3px solid transparent;
   color: #fff;
+  white-space: nowrap;
 }
 
 .nav a.active {
@@ -177,7 +178,7 @@ h3 {
   border-radius: 999px;
   height: 44px;
   padding: 0 20px;
-  width: 320px;
+  width: 280px;
   font-family: inherit;
   font-size: 16px;
   color: var(--ink);
@@ -1156,7 +1157,7 @@ h3 {
 }
 
 /* responsive */
-@media (max-width: 1000px) {
+@media (max-width: 1200px) {
   .auth-card {
     grid-template-columns: 1fr;
   }
