@@ -8,6 +8,8 @@ import Home from './pages/Home';
 import Shop from './pages/Shop';
 import Marketplace from './pages/Marketplace';
 import Register from './pages/Register';
+import Cart from './pages/Cart';
+import Checkout from './pages/Checkout';
 
 export default function App() {
 const [searchQuery, setSearchQuery] = useState('');
@@ -39,6 +41,22 @@ return (
       path="/register"
       element={<Register />}
     />
+    <Route
+      path="/cart"
+      element={<Cart />}
+    />
+    <Route
+      path="/checkout"
+      element={<Checkout />}
+    />
+    <Route 
+      path="/cart"
+      element={<Cart />} 
+    />
+    <Route 
+      path="/checkout" 
+      element={<Checkout />}
+     />
   </Routes>
 
   <Footer />
